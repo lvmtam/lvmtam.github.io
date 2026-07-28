@@ -1,30 +1,38 @@
 {
-  "applinks": {
-    "details": [
-      {
-        "appIDs": [
- "GTKNMEFUHY.com.active.zen",
-          "GTKNMEFUHY.com.active.zen.dev"
-        ],
-        "components": [
-          {
-            "/": "/*",
-            "comment": "Allow all paths for dev testing"
-          }
+    "applinks": {
+        "details": [
+            {
+                "appIDs": [
+                    "GTKNMEFUHY.com.active.zen",
+                    "GTKNMEFUHY.com.active.zen.dev"
+                ],
+                "components": [
+                    {
+                        "/": "/zen/*",
+                        "comment": "Allow all Zen paths"
+                    },
+                    {
+                        "/": "/zen",
+                        "comment": "Allow /zen"
+                    }
+                ]
+            },
+            {
+                "appIDs": [
+                    "GTKNMEFUHY.com.active.sunnypoint",
+                    "GTKNMEFUHY.com.active.sunnypoint.dev"
+                ],
+                "components": [
+                    {
+                        "/": "/sunnypoint/*",
+                        "comment": "Allow all SunnyPoint paths"
+                    },
+                    {
+                        "/": "/sunnypoint",
+                        "comment": "Allow /sunnypoint"
+                    }
+                ]
+            }
         ]
-      },
-{
-        "appIDs": [
-          "GTKNMEFUHY.com.active.sunnypoint",
-          "GTKNMEFUHY.com.active.sunnypoint.dev"
-        ],
-        "components": [
-          {
-            "/": "/*",
-            "comment": "Allow all paths"
-          }
-        ]
-      }
-    ]
-  }
+    }
 }
