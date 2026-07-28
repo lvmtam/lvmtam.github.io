@@ -1,0 +1,17 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": [
+          "GTKNMEFUHY.com.active.zen.dev"
+        ],
+        "components": [
+          {
+            "/": "/*",
+            "comment": "Allow all paths for dev testing"
+          }
+        ]
+      }
+    ]
+  }
+}
