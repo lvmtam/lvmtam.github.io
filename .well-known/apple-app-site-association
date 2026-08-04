@@ -8,12 +8,8 @@
                 ],
                 "components": [
                     {
-                        "/": "/zen/*",
+                        "/": "/*",
                         "comment": "Allow all Zen paths"
-                    },
-                    {
-                        "/": "/zen",
-                        "comment": "Allow /zen"
                     }
                 ]
             },
@@ -24,12 +20,8 @@
                 ],
                 "components": [
                     {
-                        "/": "/sunnypoint/*",
+                        "/": "/*",
                         "comment": "Allow all SunnyPoint paths"
-                    },
-                    {
-                        "/": "/sunnypoint",
-                        "comment": "Allow /sunnypoint"
                     }
                 ]
             }
