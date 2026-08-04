@@ -5,7 +5,7 @@
             "namespace": "android_app",
             "package_name": "com.active.zen",
             "sha256_cert_fingerprints": [
-                "42:8B:5B:B5:4F:30:CC:31:C5:79:D7:38:73:29:BE:BF:A1:21:14:A4:E4:F3:F3:CD:A9:DF:06:6B:51:4D:2C:A4"
+                "74:5A:EC:17:22:F6:64:65:14:68:12:C6:CD:22:4B:BD:77:B2:40:21:ED:D8:31:C8:03:C4:51:49:FB:B7:BF:29"
             ]
         }
     },
@@ -15,7 +15,27 @@
             "namespace": "android_app",
             "package_name": "com.active.zen.dev",
             "sha256_cert_fingerprints": [
-                "42:8B:5B:B5:4F:30:CC:31:C5:79:D7:38:73:29:BE:BF:A1:21:14:A4:E4:F3:F3:CD:A9:DF:06:6B:51:4D:2C:A4"
+                "74:5A:EC:17:22:F6:64:65:14:68:12:C6:CD:22:4B:BD:77:B2:40:21:ED:D8:31:C8:03:C4:51:49:FB:B7:BF:29"
+            ]
+        }
+    },
+    {
+        "relation": ["delegate_permission/common.handle_all_urls"],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "com.active.sunnypoint",
+            "sha256_cert_fingerprints": [
+                "74:5A:EC:17:22:F6:64:65:14:68:12:C6:CD:22:4B:BD:77:B2:40:21:ED:D8:31:C8:03:C4:51:49:FB:B7:BF:29"
+            ]
+        }
+    },
+    {
+        "relation": ["delegate_permission/common.handle_all_urls"],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "com.active.sunnypoint.dev",
+            "sha256_cert_fingerprints": [
+                "74:5A:EC:17:22:F6:64:65:14:68:12:C6:CD:22:4B:BD:77:B2:40:21:ED:D8:31:C8:03:C4:51:49:FB:B7:BF:29"
             ]
         }
     }
