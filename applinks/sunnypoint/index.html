@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Opening Sunnypoint...</title>
+
+    <script>
+        (function () {
+            const IOS_URL =
+                "https://apps.apple.com/app/id736484996";
+
+            const ANDROID_URL =
+                "https://play.google.com/store/apps/details?id=com.active.zen";
+
+            const HOMEPAGE_URL =
+                "https://s.sunnypoint.jp/";
+
+            const userAgent =
+                navigator.userAgent || navigator.vendor || window.opera;
+
+            // iPhone / iPad / iPod
+            if (/iPad|iPhone|iPod/.test(userAgent)) {
+                window.location.replace(IOS_URL);
+                return;
+            }
+
+            // iPadOS may identify itself as macOS
+            if (
+                navigator.platform === "MacIntel" &&
+                navigator.maxTouchPoints > 1
+            ) {
+                window.location.replace(IOS_URL);
+                return;
+            }
+
+            // Android
+            if (/android/i.test(userAgent)) {
+                window.location.replace(ANDROID_URL);
+                return;
+            }
+
+            // Desktop / other devices
+            window.location.replace(HOMEPAGE_URL);
+        })();
+    </script>
+</head>
+
+<body>
+    <p>Redirecting...</p>
+</body>
+
+</html>
