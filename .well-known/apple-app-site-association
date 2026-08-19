@@ -8,7 +8,7 @@
                 ],
                 "components": [
                     {
-                        "/": "/*",
+                        "/": "/applinks/zen/*",
                         "comment": "Allow all Zen paths"
                     }
                 ]
@@ -20,7 +20,7 @@
                 ],
                 "components": [
                     {
-                        "/": "/*",
+                        "/": "/applinks/sunnypoint/*",
                         "comment": "Allow all SunnyPoint paths"
                     }
                 ]
